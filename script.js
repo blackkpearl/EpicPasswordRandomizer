@@ -18,11 +18,9 @@ var CharNum = prompt("Please select a number between 8 and 128 for the character
 CharNum = parseInt(CharNum);
   if (CharNum >=8 && CharNum <=128); {
     console.log(CharNum)
-  } else {
-    alert("You did not select a number between 8 and 128. Try again.");
-    return;
-  }
-{   
+  } 
+  
+  
 // Confirms the user would like uppercase letters included in password. 
 var upperCase = confirm("Would you like to include uppercase letters?");
   if(upperCase){
